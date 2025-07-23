@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fretboard Learner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Fretboard Learner</h1>
+        <div class="instructions">
+            <h3>How to Play:</h3>
+            <div class="instruction-grid">
+                <div class="instruction-item">
+                    <strong>1. Look at the blue circled note</strong> - This is the current note waiting for your answer
+                </div>
+                <div class="instruction-item">
+                    <strong>2. Type the note name:</strong>
+                    <br>• <span class="key">A-G</span> for natural notes (A, B, C, D, E, F, G)
+                    <br>• <span class="key">a-g</span> for flat notes (A♭, B♭, C♭, D♭, E♭, F♭, G♭)
+                </div>
+                <div class="instruction-item">
+                    <strong>3. Get instant feedback:</strong>
+                    <br>• <span class="correct-demo">Green</span> = Correct answer
+                    <br>• <span class="incorrect-demo">Red</span> = Wrong answer
+                </div>
+                <div class="instruction-item">
+                    <strong>4. Game continues automatically</strong> - After each answer, the next note is highlighted
+                </div>
+            </div>
+            <div class="tips">
+                <strong>💡 Tips:</strong>
+                • Hover over any note to see the correct answer
+                • The game learns from your mistakes and shows difficult notes more often
+                • Complete all 8 notes to get a new random exercise
+            </div>
+        </div>
+    </div>
+    
+    <div class="tab-container">
+        <div class="string-labels">
+            <div class="string-label">E</div>
+            <div class="string-label">B</div>
+            <div class="string-label">G</div>
+            <div class="string-label">D</div>
+            <div class="string-label">A</div>
+            <div class="string-label">E</div>
+        </div>
+        
+        <div class="measures">
+            <div class="measure" data-measure="0">
+                <div class="tab-line" data-string="0">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+                <div class="tab-line" data-string="1">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+                <div class="tab-line" data-string="2">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+                <div class="tab-line" data-string="3">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+                <div class="tab-line" data-string="4">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+                <div class="tab-line" data-string="5">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+            </div>
+            
+            <div class="measure" data-measure="1">
+                <div class="tab-line" data-string="0">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+                <div class="tab-line" data-string="1">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+                <div class="tab-line" data-string="2">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+                <div class="tab-line" data-string="3">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+                <div class="tab-line" data-string="4">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+                <div class="tab-line" data-string="5">
+                    <span class="note-space" data-beat="0"></span>
+                    <span class="note-space" data-beat="1"></span>
+                    <span class="note-space" data-beat="2"></span>
+                    <span class="note-space" data-beat="3"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
