@@ -4,7 +4,7 @@ A web-based guitar fretboard learning game that helps you memorize note position
 
 ## 🎮 Play the Game
 
-**[Play Fretboard Learner](https://yourusername.github.io/fretboardlearner)**
+**[Play Fretboard Learner](https://insanedefaults.github.io/fretboardlearner)**
 
 ## 🎯 Features
 
